@@ -21,42 +21,42 @@ It's like Chosen but with only the essential features:
 
 To use, simply include the jquery.easydropdown.min.js script in your page and give your <select> tags the class dropdown:
 
-	<select class="dropdown">
+	`<select class="ezdropdown">
 		<option value="1">Option 1</option>
 		<option value="2">Option 2</option>
 		<option value="3">Option 3</option>
 		<option value="4">Option 4</option>
-	</select>
+	</select>`
 
-If you are using labels within the <select> element, identify them with the class label:
+###If you are using labels within the <select> element, identify them with the class label:
 
-	<select class="dropdown">
+	`<select class="ezdropdown">
 		<option value="" class="label">Month</option>
 		<option value="1">January</option>
 		<option value="2">February</option>
 		<option value="3">March</option>
 		...
-	</select>
+	</select>`
 
 To build your dropdown with an arbitrary option pre-selected, simply give it the selected attribute as you normally would:
 
-	<select class="dropdown">
+	`<select class="ezdropdown">
 		<option value="" class="label">Month</option>
 		<option value="1">January</option>
 		<option value="2" selected>February</option>
 		<option value="3">March</option>
 		...
-	</select>
+	</select>`
 
 Similarly, a dropdown may be disabled with the disabled attribute:
 
-	<select class="dropdown" disabled>
+	`<select class="ezdropdown" disabled>
 		<option value="" class="label">Month</option>
 		<option value="1">January</option>
 		<option value="2">February</option>
 		<option value="3">March</option>
 		...
-	</select>
+	</select>`
 
 No custom JS required!
 
@@ -66,7 +66,7 @@ Either create your own styles to match your design and branding, or use one of o
 
 Each drop-down has the following basic markup structure that you can target with your CSS:
 
-	<div class="dropdown">
+	<div class="ezdropdown">
 		<span class="old">
 			<select>...</select>
 		</span>
@@ -119,7 +119,7 @@ Alternatively, by not using the class 'dropdown' you can instantiate your dropdo
 
 You may also define your customizable settings directly in your HTML via a JSON Object in the data-settings attribute:
 
-	<select class="dropdown"
+	<select class="ezdropdown"
 		data-settings='{"cutOff":6}'>
 		<option value="1">Option 1</option>
 		<option value="2">Option 2</option>
