@@ -6,22 +6,23 @@ Forked to make compatible with Bootstrap
 
 ### What Is It?
 
-EasyDropDown is a jQuery plugin that effortlessly turns humble `<select>` elements into styleable drop-down menus for use in forms or general UI/navigation.
+EasyDropDown is a jQuery plugin that effortlessly turns humble <select> elements into styleable drop-down menus for use in forms or general UI/navigation.
 
 
 It's like Chosen but with only the essential features:
 
-    * Clean, semantic markup
-    * Form & validation compatibility
-    * Full keyboard control with textual search
-    * Inner-scroll for long lists
-    * Degradation to native UI on touch devices
-    * Fully functional IE8+
+
+* Clean, semantic markup
+* Form & validation compatibilty
+* Full keyboard control with textual search
+* Inner-scroll for long lists
+* Degradation to native UI on touch devices
+* Fully functional IE8+
 
 
 ### How To Use It
 
-To use, simply include the jquery.easydropdown.min.js script in your page and give your `<select>` tags the class dropdown:
+To use, simply include the jquery.easydropdown.min.js script in your page and give your <select> tags the class dropdown:
 
 	`<select class="ezdropdown">
 		<option value="1">Option 1</option>
@@ -92,22 +93,22 @@ Each drop-down has the following basic markup structure that you can target with
 
 ### The following classes are added/removed dynamically:
 
-    * .focus (container)
-    On input focus
-    * .open (container)
-    On menu open
-    * .scrollable (container)
-    When in scroll mode (see cutOff)
-    * .bottom (container)
-    On scroll bottom-out
-    * .touch (container)
-    When in native touch UI mode (see nativeTouch)
-    * .disabled (container)
-    When disabled
-    * .focus (menu item)
-    On hover or keyboard focus
-    * .active (menu item)
-    Selected menu item
+* .focus (container)
+On input focus
+* .open (container)
+On menu open
+* .scrollable (container)
+When in scroll mode (see cutOff)
+* .bottom (container)
+On scroll bottom-out
+* .touch (container)
+When in native touch UI mode (see nativeTouch)
+* .disabled (container)
+When disabled
+* .focus (menu item)
+On hover or keyboard focus
+* .active (menu item)
+Selected menu item
 
 ### Advanced Usage
 
@@ -137,24 +138,24 @@ You may also define your customizable settings directly in your HTML via a JSON 
 
 ### Customizable Settings
 
-    + cutOff (integer)
-    The maximum number of items to show before scrolling (default false).
-    + wrapperClass (string)
-    The class of the parent wrapper element, used to target styling (default 'dropdown').
-    + onChange (function)
-    A custom function to call when an item is selected. Useful for non-form input uses. An object containing the selected item's value and title is passed as an argument.
-    + nativeTouch (boolean)
-    Fallback to native UI on touch-enabled devices (default true).
++ cutOff (integer)
+The maximum number of items to show before scrolling (default false).
++ wrapperClass (string)
+The class of the parent wrapper element, used to target styling (default 'dropdown').
++ onChange (function)
+A custom function to call when an item is selected. Useful for non-form input uses. An object containing the selected item's value and title is passed as an argument.
++ nativeTouch (boolean)
+Fallback to native UI on touch-enabled devices (default true).
 
 ### Methods
 
-    + .easyDropDown('disable')
-    Disable the dropdown.
-    + .easyDropDown('enable')
-    Enable the dropdown.
-    + .easyDropDown('destroy')
-    Remove all generated elements and unbind all handlers.
-    + .easyDropDown('select', index/value)
-    Programmatically select option by index (integer) or value (string).
-    + .val()
-    Get selected value.
++ .easyDropDown('disable')
+Disable the dropdown.
++ .easyDropDown('enable')
+Enable the dropdown.
++ .easyDropDown('destroy')
+Remove all generated elements and unbind all handlers.
++ .easyDropDown('select', index/value)
+Programmatically select option by index (integer) or value (string).
++ .val()
+Get selected value.
