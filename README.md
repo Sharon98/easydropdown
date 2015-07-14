@@ -1,4 +1,3 @@
-7/14/2015 11:44 AM
 Forked to make compatible with Bootstrap
 
 # EasyDropDown
@@ -6,15 +5,17 @@ Forked to make compatible with Bootstrap
 
 ### What Is It?
 
-EasyDropDown is a jQuery plugin that effortlessly turns humble <select> elements into styleable drop-down menus for use in forms or general UI/navigation. It's like Chosen but with only the essential features:
+EasyDropDown is a jQuery plugin that effortlessly turns humble <select> elements into styleable drop-down menus for use in forms or general UI/navigation. 
 
-* Clean, semantic markup
-* Form & validation compatibilty
-* Full keyboard control with textual search
-* Inner-scroll for long lists
-* Degradation to native UI on touch devices
-* Fully functional IE8+
 
+#### It's like Chosen but with only the essential features:
+
+	+ Clean, semantic markup
+	+ Form & validation compatibilty
+	+ Full keyboard control with textual search
+	+ Inner-scroll for long lists
+	+ Degradation to native UI on touch devices
+	+ Fully functional IE8+
 
 ### How To Use It
 
