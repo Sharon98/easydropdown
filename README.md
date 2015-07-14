@@ -30,8 +30,7 @@ To use, simply include the jquery.easydropdown.min.js script in your page and gi
 	</select>`
 
 
-### If you are using labels within the <select> element, identify them with the class label:
-
+If you are using labels within the `<select>` element, identify them with the class label:
 
 	`<select class="ezdropdown">
 		<option value="" class="label">Month</option>
@@ -110,7 +109,7 @@ Each drop-down has the following basic markup structure that you can target with
 
 ### Advanced Usage
 
-Alternatively, by not using the class 'dropdown' you can instantiate your dropdowns manually in your javascript, with custom settings.
+Alternatively, by not using the class 'ezdropdown' you can instantiate your dropdowns manually in your javascript, with custom settings.
 
 	$(function(){
 		var $selects = $('select');
