@@ -6,11 +6,7 @@ Forked to make compatible with Bootstrap
 
 ### What Is It?
 
-EasyDropDown is a jQuery plugin that effortlessly turns humble <select> elements into styleable drop-down menus for use in forms or general UI/navigation.
-
-
-It's like Chosen but with only the essential features:
-
+EasyDropDown is a jQuery plugin that effortlessly turns humble <select> elements into styleable drop-down menus for use in forms or general UI/navigation. It's like Chosen but with only the essential features:
 
 * Clean, semantic markup
 * Form & validation compatibilty
@@ -24,24 +20,22 @@ It's like Chosen but with only the essential features:
 
 To use, simply include the jquery.easydropdown.min.js script in your page and give your <select> tags the class dropdown:
 
-	`<select class="ezdropdown">
+	<select class="ezdropdown">
 		<option value="1">Option 1</option>
 		<option value="2">Option 2</option>
 		<option value="3">Option 3</option>
 		<option value="4">Option 4</option>
-	</select>`
+	</select>
 
 
-### If you are using labels within the <select> element, identify them with the class label:
-
-
-	`<select class="ezdropdown">
+If you are using labels within the <select> element, identify them with the class label:
+	<select class="ezdropdown">
 		<option value="" class="label">Month</option>
 		<option value="1">January</option>
 		<option value="2">February</option>
 		<option value="3">March</option>
 		...
-	</select>`
+	</select>
 
 
 To build your dropdown with an arbitrary option pre-selected, simply give it the selected attribute as you normally would:
