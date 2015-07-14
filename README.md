@@ -1,4 +1,5 @@
-> NB: This project is not currently under developement or maintainance. Unfortunately I do not have time to devote to it at the moment, but a v3.0 rewrite will happen at some point in the future. Issues have been disabled for now, but I would recommend reviewing the pending pull requests to get an idea of which issues may affect your project and the neccessary fixes that have been generously contributed by the community. Unfortunately I can not respond to any support questions regarding this plugin. Thank you.
+7/14/2015 11:44 AM
+Forked to make compatible with Bootstrap
 
 # EasyDropDown
 ### A Drop-down Builder For Styled Inputs and Menus
@@ -6,7 +7,7 @@
 ### What Is It?
 
 EasyDropDown is a jQuery plugin that effortlessly turns humble <select> elements into styleable drop-down menus for use in forms or general UI/navigation.
-	
+
 It's like Chosen but with only the essential features:
 
 + Clean, semantic markup
@@ -26,7 +27,7 @@ To use, simply include the jquery.easydropdown.min.js script in your page and gi
 		<option value="3">Option 3</option>
 		<option value="4">Option 4</option>
 	</select>
-	
+
 If you are using labels within the <select> element, identify them with the class label:
 
 	<select class="dropdown">
@@ -36,7 +37,7 @@ If you are using labels within the <select> element, identify them with the clas
 		<option value="3">March</option>
 		...
 	</select>
-	
+
 To build your dropdown with an arbitrary option pre-selected, simply give it the selected attribute as you normally would:
 
 	<select class="dropdown">
@@ -46,7 +47,7 @@ To build your dropdown with an arbitrary option pre-selected, simply give it the
 		<option value="3">March</option>
 		...
 	</select>
-	
+
 Similarly, a dropdown may be disabled with the disabled attribute:
 
 	<select class="dropdown" disabled>
@@ -56,7 +57,7 @@ Similarly, a dropdown may be disabled with the disabled attribute:
 		<option value="3">March</option>
 		...
 	</select>
-	
+
 No custom JS required!
 
 ###How To Style It
@@ -80,7 +81,7 @@ Each drop-down has the following basic markup structure that you can target with
 			</ul>
 		</div>
 	</div>
-	
+
 ###The following classes are added/removed dynamically:
 
 + .focus (container)
@@ -106,7 +107,7 @@ Alternatively, by not using the class 'dropdown' you can instantiate your dropdo
 
 	$(function(){
 		var $selects = $('select');
-						
+
 		$selects.easyDropDown({
 			cutOff: 10,
 			wrapperClass: 'my-dropdown-class',
@@ -115,16 +116,16 @@ Alternatively, by not using the class 'dropdown' you can instantiate your dropdo
 			}
 		});
 	});
-	
+
 You may also define your customizable settings directly in your HTML via a JSON Object in the data-settings attribute:
 
-	<select class="dropdown" 
+	<select class="dropdown"
 		data-settings='{"cutOff":6}'>
 		<option value="1">Option 1</option>
 		<option value="2">Option 2</option>
 		..
 	</select>
-	
+
 ###Customizable Settings
 
 + cutOff (integer)
