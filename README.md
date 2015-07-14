@@ -19,6 +19,7 @@ It's like Chosen but with only the essential features:
 
 ###How To Use It
 
+
 To use, simply include the jquery.easydropdown.min.js script in your page and give your <select> tags the class dropdown:
 
 	`<select class="ezdropdown">
@@ -28,7 +29,9 @@ To use, simply include the jquery.easydropdown.min.js script in your page and gi
 		<option value="4">Option 4</option>
 	</select>`
 
+
 ###If you are using labels within the <select> element, identify them with the class label:
+
 
 	`<select class="ezdropdown">
 		<option value="" class="label">Month</option>
@@ -37,6 +40,7 @@ To use, simply include the jquery.easydropdown.min.js script in your page and gi
 		<option value="3">March</option>
 		...
 	</select>`
+
 
 To build your dropdown with an arbitrary option pre-selected, simply give it the selected attribute as you normally would:
 
@@ -48,6 +52,7 @@ To build your dropdown with an arbitrary option pre-selected, simply give it the
 		...
 	</select>`
 
+
 Similarly, a dropdown may be disabled with the disabled attribute:
 
 	`<select class="ezdropdown" disabled>
@@ -57,6 +62,7 @@ Similarly, a dropdown may be disabled with the disabled attribute:
 		<option value="3">March</option>
 		...
 	</select>`
+
 
 No custom JS required!
 
@@ -81,6 +87,7 @@ Each drop-down has the following basic markup structure that you can target with
 			</ul>
 		</div>
 	</div>
+
 
 ###The following classes are added/removed dynamically:
 
@@ -116,6 +123,7 @@ Alternatively, by not using the class 'dropdown' you can instantiate your dropdo
 			}
 		});
 	});
+
 
 You may also define your customizable settings directly in your HTML via a JSON Object in the data-settings attribute:
 
